@@ -19,7 +19,7 @@ class Test {
 
   async logName() {
 
-    console.log(`id -> `, this.#logger.name);
+    console.log(`name -> `, this.#logger.name);
   }
 
 }
