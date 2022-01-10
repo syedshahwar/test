@@ -14,12 +14,12 @@ class Test {
 
   async logId() {
 
-    console.log(`id -> `, this.#logger.id);
+    console.log(`id: `, this.#logger.id);
   }
 
   async logName() {
 
-    console.log(`name -> `, this.#logger.name);
+    console.log(`name: `, this.#logger.name);
   }
 
 }
