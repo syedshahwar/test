@@ -1,0 +1,22 @@
+{
+  "name": "@syedshahwar/test-lib",
+  "version": "1.0.0",
+  "description": "test library",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syedshahwar/test.git"
+  },
+  "author": "Syed Shahwar Shah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/syedshahwar/test/issues"
+  },
+  "homepage": "https://github.com/syedshahwar/test#readme"
+}
