@@ -3,17 +3,23 @@ class Test {
 
   /**
    * 
-   * @param {string} id
+   * @param {number} id
+   * @param {name} name
    */
-  init(id) {
+  init(id, name) {
     if (!this.#logger) {
-      this.#logger = {id: id};
+      this.#logger = {id: id, name: name};
     }
   }
 
-  async log() {
+  async logId() {
 
     console.log(`id -> `, this.#logger.id);
+  }
+
+  async logName() {
+
+    console.log(`id -> `, this.#logger.name);
   }
 
 }
