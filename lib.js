@@ -13,7 +13,7 @@ class Test {
 
   async log() {
 
-    console.log(`id -> `, this.#logger.id)
+    console.log(`id -> `, this.#logger.id);
   }
 
 }
